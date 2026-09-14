@@ -1,15 +1,16 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-    int n, m, a;
+int main() 
+{
+    int n1, n2, n3;
 
-    cin >> n >> m >> a;
+    cin >> n1 >> n2 >> n3;
 
-    if (n != m && n != a && m != a) {
-        cout << "ELLA NO TE AMA" << endl;
+    if (n1 == n2 || n1 == n3 || n2 == n3) {
+        cout << "ELLA TE AMA";
     } else {
-        cout << "ELLA TE AMA" << endl;
+        cout << "ELLA NO TE AMA";
     }
 
     return 0;

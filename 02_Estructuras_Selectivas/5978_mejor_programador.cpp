@@ -2,17 +2,18 @@
 #include <string>
 using namespace std;
 
-int main() {
+int main() 
+{
     string nombre1, nombre2;
-    int puntaje1, puntaje2;
+    int puntos1, puntos2;
 
-    cin >> nombre1 >> puntaje1;
-    cin >> nombre2 >> puntaje2;
+    cin >> nombre1 >> puntos1;
+    cin >> nombre2 >> puntos2;
 
-    if (puntaje1 > puntaje2) {
-        cout << nombre1 << endl;
+    if (puntos1 > puntos2) {
+        cout << nombre1;
     } else {
-        cout << nombre2 << endl;
+        cout << nombre2;
     }
 
     return 0;

@@ -2,39 +2,43 @@
 #include <string>
 using namespace std;
 
-int main() {
-    string tipo1, tipo2, tipo3;
+int main() 
+{
+    string palabra1, palabra2, palabra3;
 
-    cin >> tipo1;
-    cin >> tipo2;
-    cin >> tipo3;
+    cin >> palabra1;
+    cin >> palabra2;
+    cin >> palabra3;
 
-    if (tipo1 == "vertebrado") {
-        if (tipo2 == "ave") {
-            if (tipo3 == "carnivoro") {
-                cout << "aguia" << endl;
+    if (palabra1 == "vertebrado") {
+
+        if (palabra2 == "ave") {
+            if (palabra3 == "carnivoro") {
+                cout << "aguia";
             } else {
-                cout << "pomba" << endl;
+                cout << "pomba";
             }
         } else {
-            if (tipo3 == "onivoro") {
-                cout << "homem" << endl;
+            if (palabra3 == "onivoro") {
+                cout << "homem";
             } else {
-                cout << "vaca" << endl;
+                cout << "vaca";
             }
         }
+
     } else {
-        if (tipo2 == "inseto") {
-            if (tipo3 == "hematofago") {
-                cout << "pulga" << endl;
+
+        if (palabra2 == "inseto") {
+            if (palabra3 == "hematofago") {
+                cout << "pulga";
             } else {
-                cout << "lagarta" << endl;
+                cout << "lagarta";
             }
         } else {
-            if (tipo3 == "hematofago") {
-                cout << "sanguessuga" << endl;
+            if (palabra3 == "hematofago") {
+                cout << "sanguessuga";
             } else {
-                cout << "minhoca" << endl;
+                cout << "minhoca";
             }
         }
     }

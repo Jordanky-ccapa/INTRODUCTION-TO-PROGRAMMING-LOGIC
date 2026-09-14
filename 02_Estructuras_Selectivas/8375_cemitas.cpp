@@ -1,17 +1,18 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-    int ganancias, perdidas;
+int main() 
+{
+    int ganancia, perdida;
 
-    cin >> ganancias >> perdidas;
+    cin >> ganancia >> perdida;
 
-    if (ganancias > perdidas) {
+    if (ganancia > perdida) {
         cout << "El negocio si va a jalar ";
-        cout << ganancias - perdidas << endl;
+        cout << ganancia - perdida;
     } else {
         cout << "Dejalo ya esta muerto ";
-        cout << perdidas - ganancias << endl;
+        cout << perdida - ganancia;
     }
 
     return 0;
