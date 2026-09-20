@@ -67,3 +67,16 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# macOS metadata
+.DS_Store
+
+# Local compiled executables
+/01_Estructuras_Secuenciales/main6
+/01_Estructuras_Secuenciales/operadores1
+/01_Estructuras_Secuenciales/operadores4
+/01_Estructuras_Secuenciales/operadores6
+/01_Estructuras_Secuenciales/operadores8
+/02_Estructuras_Selectivas/11318_toma_decisiones
+/02_Estructuras_Selectivas/5978_mejor_programador
+/02_Estructuras_Selectivas/736_animales
