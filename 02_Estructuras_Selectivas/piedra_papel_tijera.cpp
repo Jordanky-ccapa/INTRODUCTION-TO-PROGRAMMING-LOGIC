@@ -5,7 +5,7 @@ using namespace std;
 
 int main() 
 {
-    // Generar la eleccion de la computadora.
+    
     srand(time(0));
     int computadora;
     computadora = rand() % 3 + 1;
@@ -19,11 +19,11 @@ int main()
     cout << "Elige una opcion (1, 2 o 3): ";
     cin >> jugador;
 
-    // Comprobar que la entrada sea valida.
+    
     if (cin.fail() || jugador < 1 || jugador > 3) {
         cout << "Opcion invalida. Debes ingresar 1, 2 o 3.\n";
     } else {
-        // Mostrar la eleccion del jugador.
+        
         if (jugador == 1) {
             cout << "Tu elegiste: Piedra\n";
         } else if (jugador == 2) {
@@ -32,7 +32,7 @@ int main()
             cout << "Tu elegiste: Tijera\n";
         }
 
-        // Mostrar la eleccion de la computadora.
+        
         if (computadora == 1) {
             cout << "La computadora eligio: Piedra\n";
         } else if (computadora == 2) {
@@ -41,7 +41,7 @@ int main()
             cout << "La computadora eligio: Tijera\n";
         }
 
-        // Comparar las elecciones para decidir el resultado.
+        
         if (jugador == computadora) {
             cout << "Empate.\n";
         } else if ((jugador == 1 && computadora == 3) ||
